@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Signup(props) {
 
-const host = "https://inotebookserver-co11.onrender.com/"
+const host = "https://inotebookserver-co11.onrender.com"
 
 //cred mean's creditentails--
 const [cred, setCred] = useState({name: "", email: "", password: ""})

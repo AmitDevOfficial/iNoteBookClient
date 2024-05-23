@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Login(props) {
     
-    const host = "https://inotebookserver-co11.onrender.com/"
+    const host = "https://inotebookserver-co11.onrender.com"
     //cred mean's creditentails--
     const [cred, setCred] = useState({ email: "", password: "" })
     const navigate = useNavigate();
